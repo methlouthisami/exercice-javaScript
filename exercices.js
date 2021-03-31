@@ -65,3 +65,26 @@ function plus(x){
 }
 console.log(plus(10))
 //ex7
+function surface(hauteur,base){
+    sur=hauteur*base/2
+    return sur;
+}
+console.log(surface(8,2))
+//ex8
+
+let s = 'methlouthisami';
+let rev = s.split('').reverse().join('');
+console.log(rev);
+//ex9
+
+let a=6
+let b=1
+let c=20
+
+console.log(Math.max(a, b, c));
+//ex10
+
+const array1 = [1, 2, 3];
+const firstElement = array1.shift();
+console.log(array1);
+console.log(firstElement);
